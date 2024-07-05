@@ -23,7 +23,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL', default='postgresql://postgres:postgres@localhost:5432/backend'),
+        default='postgres://postgres:postgres@localhost:5432/backend',
         conn_max_age=600
     )
     
