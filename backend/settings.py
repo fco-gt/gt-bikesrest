@@ -58,7 +58,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://master-bikes.vercel.app"
+    "https://master-bikes.vercel.app"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
